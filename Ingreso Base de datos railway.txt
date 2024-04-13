@@ -1,0 +1,12 @@
+host: roundhouse.proxy.rlwy.net
+port: 58650
+
+VvggekITVgrxDgwouSbsiXaukflgCqcj
+
+CREATE TABLE `testimoniales` (
+  `id` bigint NOT NULL,
+  `nombre` varchar(60) DEFAULT NULL,
+  `correo` varchar(10) DEFAULT NULL,
+  `mensaje` text,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3
